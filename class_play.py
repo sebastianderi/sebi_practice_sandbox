@@ -28,3 +28,5 @@ book1 # i guess this does nothing
 book1.info()
 
 print ("end")
+
+print("THE NEEW THING")
