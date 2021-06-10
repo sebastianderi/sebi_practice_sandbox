@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.177.0/containers/docker-existing-dockerfile
+{
+	"name": "Existing Dockerfile",
+
+	"image": "sebi_practice_sandbox",
+
+	"context": "..",
+
+	"settings": { 
+		"terminal.integrated.shell.linux": null
+	},
+
+	"extensions": ["ms-vscode-remote.remote-containers", "ms-azuretools.vscode-docker
+	", "ms-python.python"]
+
+
+}

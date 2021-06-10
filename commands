@@ -1,0 +1,2 @@
+docker build --tag sebi_practice_sandbox --file .\Dockerfile .
+docker run -it -v ${PWD}:/opt/sebi_practice_sandbox --workdir=/opt/sebi_practice_sandbox sebi_practice_sandbox /bin/bash 
